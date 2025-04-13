@@ -1,0 +1,14 @@
+Git pull request to main from master
+
+
+
+
+git:(master) git branch main
+git:(master) git checkout main
+git:(main) git pull origin master
+git:(main) git checkout master
+git:(master) git pull
+
+git pull --rebase
+git push --set-upstream origin main
+git push -f origin main
