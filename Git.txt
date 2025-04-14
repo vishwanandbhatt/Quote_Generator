@@ -12,3 +12,156 @@ git:(master) git pull
 git pull --rebase
 git push --set-upstream origin main
 git push -f origin main
+
+
+
+
+
+
+
+
+Build a full-featured, professional Netflix-like streaming web application designed for SDE-2 level portfolio and technical interviews. The project must follow best practices for scalability, maintainability, and production-readiness.
+
+🚀 Project Name: StreamFlix Pro
+🧱 Tech Stack (Upgraded for SDE-2 Readiness):
+Frontend:
+React (with TypeScript)
+
+TailwindCSS for modern, responsive styling
+
+React Router DOM for SPA navigation
+
+State Management using Zustand (or Context API if simpler)
+
+Framer Motion or AOS for animations
+
+API:
+TMDB API (free key from https://developer.themoviedb.org/docs)
+
+Fetch trending, popular, upcoming movies
+
+Fetch individual movie details, trailers, cast info
+
+Enable search functionality
+
+Auth & Database:
+Firebase Authentication (Email + Google OAuth)
+
+Firebase Firestore for user-specific watchlists (optional)
+
+Store guest user history in localStorage
+
+
+
+Testing:
+Jest + React Testing Library for unit & component tests
+
+Dev Tools:
+ESLint + Prettier for clean code
+
+Husky + Lint-staged for pre-commit hooks
+
+Deployment:
+Vercel or Netlify (Free hosting)
+
+GitHub Actions for CI/CD pipeline (auto deploy on push to main)
+
+💡 Key Features to Implement:
+Responsive Netflix-style UI
+
+Featured movies banner
+
+Categories: Trending, Top Rated, Upcoming, Originals
+
+Movie/TV detail page with trailer
+
+Search functionality
+
+Authentication
+
+Sign up / Login / Google Auth
+
+Display user avatar in navbar
+
+Watchlist Feature
+
+Save user’s favorite movies (Firestore)
+
+Show message for guest users to login
+
+Animations using Framer Motion or AOS
+
+Dark mode toggle
+
+Loader skeletons or shimmer effect
+
+404 Not Found page
+
+Multi-language support (i18n)
+
+Lazy loading + code splitting
+
+Infinite scroll for movies
+
+Scroll position persistence
+
+Accessibility improvements (keyboard navigation, ARIA)
+
+Lighthouse performance optimization
+
+🔐 Environment Variables:
+TMDB API key
+
+Firebase config (project ID, API key, etc.)
+
+📂 Suggested Project Structure:
+bash
+Copy
+Edit
+/src
+├── /components
+├── /pages
+├── /hooks
+├── /store (zustand)
+├── /services (API logic)
+├── /utils
+├── /assets
+├── /tests
+├── App.tsx
+└── main.tsx
+🧪 Testing:
+Write tests for:
+
+MovieCard component
+
+Search input logic
+
+Watchlist add/remove flow
+
+Use React Testing Library with mock API responses
+
+📦 CI/CD + Deployment:
+Deploy on Vercel or Netlify
+
+Set up GitHub Actions to:
+
+Run tests on push
+
+Deploy to Vercel/Netlify if tests pass
+
+📝 README.md Expectations:
+Overview, features, tech stack
+
+Setup instructions with .env.example
+
+Folder structure breakdown
+
+Screenshots/GIFs
+
+
+✅ Final Deliverables:
+Production-ready, type-safe codebase
+
+Fully responsive and animated UI
+
+Firebase Auth + API integration
